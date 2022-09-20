@@ -23,7 +23,7 @@ namespace INSEE.KIOSK.API.Controllers
         readonly Services.ICourseService _courseService;
         readonly Services.IGuestDetailService _guestDetailService;
         readonly Services.IGuestDetailAttemptService _guestDetailAttemptService;
-
+        //1
 
         List<ValidationResult> validations;
         public SiteController(Services.ISettingService settingService, Services.ISiteService kioskService,
